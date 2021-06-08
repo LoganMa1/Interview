@@ -41,6 +41,7 @@ int main()
     for(int i=0;i<10;i++)
     {
         pthread_create(&pth[i],NULL,_write,&fe);
+        pthread_join;
     }
     return 0;
 }
