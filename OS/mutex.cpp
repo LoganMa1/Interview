@@ -41,7 +41,7 @@ int main()
     for(int i=0;i<10;i++)
     {
         pthread_create(&pth[i],NULL,_write,&fe);
-        pthread_join;
     }
+    for(auto &i:pth) pthread_join(i,nullptr);
     return 0;
 }
