@@ -1,4 +1,4 @@
-#ifdef _FLOYED_
+#ifndef _FLOYED_
 #define _FLOYED_
 #include <vector>
 
